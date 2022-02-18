@@ -1,4 +1,5 @@
-def hello():
-   print("hello")
-   
-print(hello())
+from app import index
+
+
+def test_index():
+    assert index() == "Hello, world!"
